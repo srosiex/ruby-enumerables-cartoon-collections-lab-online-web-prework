@@ -1,11 +1,25 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(dwarfs)# code an argument here
   # Your code here
+  #dwarfs = ["Doc", "Dopey", "Bashful", "Grumpy"]
+  # dwarfs.each_with_index do | name , index |
+  #   puts "#{index + 1} #{name}"
+  end
 end
 
 def summon_captain_planet# code an argument here
   # Your code here
+# planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+
 end
 
+# oppressed_workers.each do |oppressed_worker|
+#    puts "#{oppressed_worker.capitalize} wants to start a union!"
+# end
+
+end
+
+
+return summon_captain_planet
 def long_planeteer_calls# code an argument here
   # Your code here
 end
