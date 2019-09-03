@@ -1,17 +1,19 @@
-def roll_call_dwarves(dwarfs)# code an argument here
+def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   #dwarfs = ["Doc", "Dopey", "Bashful", "Grumpy"]
-  dwarfs = dwarfs.new
-%(Doc Dopey Bashful Grumpy).each_with_index {|dwarfs, index|}
+dwarves.each_with_index do |dwarf, index|
+  puts "#{inded + 1}. #{dwarf}"
+
   end
 end
+roll_call_dwarves(dwarves)
 
-def summon_captain_planet# code an argument here
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
-# planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-
+planeteer_calls.map {|planeteer_calls| planeteer_calls.capitalize +'1'}
 end
-
+summon_captain_planet(planeteer_calls)
 # oppressed_workers.each do |oppressed_worker|
 #    puts "#{oppressed_worker.capitalize} wants to start a union!"
 # end
