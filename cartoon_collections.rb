@@ -13,7 +13,18 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
 planeteer_calls.map {|planeteer_calls| planeteer_calls.capitalize +'1'}
 end
+
 summon_captain_planet(planeteer_calls)
+
+assorted_words = ["two", "go", "industrious", "bop"]
+def long_planeteer_calls(planeteer_calls)
+planeteer_calls.any? {|call| call.length > 4}
+
+end
+
+long_planeteer_calls(planeteer_calls)
+
+
 # oppressed_workers.each do |oppressed_worker|
 #    puts "#{oppressed_worker.capitalize} wants to start a union!"
 # end
